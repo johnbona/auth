@@ -26,7 +26,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/service.git", "1.0.0-beta.1"..<"1.0.0-beta.2"),
 
         // A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", "3.0.0-beta.2"..<"3.0.0-beta.3"),
+        .package(url: "https://github.com/vapor/vapor.git", "3.0.0-beta.3"..<"3.0.0-beta.4"),
     ],
     targets: [
         .target(name: "Authentication", dependencies: ["Async", "Bits", "Crypto", "Debugging", "Fluent", "HTTP", "Service", "Vapor"]),
